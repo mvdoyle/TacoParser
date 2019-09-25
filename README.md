@@ -6,7 +6,7 @@ An exercise in geolocation, csv parsing, and logging
 
 Here's what you'll need to do for this Kata:
 
-1. Clone this repo to your machine, then create a branch to accomplish your work (`git checkout -b your-branch-name`)
+1. Clone this repo to your machine
 2. Complete all the `TODO`s, while adding appropriate log statements along the way. You can find more details below in the Kata Details section:
     1. Start with writing a Unit Test to Test the Parse method
     2. Implement the Parse Method
