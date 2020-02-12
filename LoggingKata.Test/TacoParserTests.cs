@@ -9,6 +9,16 @@ namespace LoggingKata.Test
         public void ShouldDoSomething()
         {
             // TODO: Complete Something, if anything
+            //Arrange
+            
+            var tacoParser = new TacoParser();
+
+            //Act
+            var actual = tacoParser.Parse("34.073638, -84.677017, Taco Bell Acwort...");
+
+            //Assert
+            Assert.NotNull(actual);
+
         }
 
         [Theory]
