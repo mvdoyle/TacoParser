@@ -30,11 +30,10 @@ namespace LoggingKata
             var locations = lines.Select(parser.Parse).ToArray();
 
             // DON'T FORGET TO LOG YOUR STEPS
-            // Grab the path from the name of your file
 
-            // Now, here's the new code
+            // Now that your Parse method is completed, START BELOW ----------
 
-            // Create two `ITrackable` variables with initial values of `null`. These will be used to store your two taco bells that are the furthest from each other.
+            // TODO: Create two `ITrackable` variables with initial values of `null`. These will be used to store your two taco bells that are the furthest from each other.
             // Create a `double` variable to store the distance
 
             // Include the Geolocation toolbox, so you can compare locations: `using GeoCoordinatePortable;`
@@ -51,7 +50,7 @@ namespace LoggingKata
             // Now, compare the two using `.GetDistanceTo()`, which returns a double
             // If the distance is greater than the currently saved distance, update the distance and the two `ITrackable` variables you set above
 
-            // Once you've looped through everything, you've found the two Taco Bells furthest away from each other.
+            // Once you've looped through everything, you've found the two Taco Bells farthest away from each other.
 
 
             
