@@ -33,16 +33,20 @@ namespace LoggingKata
 
             double distance = 0;
 
-            for (int i = 0; i < locations.Length; i++)
+            //for (int i = 0; i < locations.Length; i++)
+            foreach(var i in locations)
             {
-                var locA = locations[i];
+                //var locA = locations[i];
+                var locA = i;
                 var corA = new GeoCoordinate();
                 corA.Latitude = locA.Location.Latitude;
                 corA.Longitude = locA.Location.Longitude;
 
-                for (int j = 0; j < locations.Length; j++)
+                //for (int j = 0; j < locations.Length; j++)
+                foreach(var j in locations)
                 {
-                    var locB = locations[j];
+                    //var locB = locations[j];
+                    var locB = j;
                     var corB = new GeoCoordinate(locB.Location.Latitude, locB.Location.Longitude);
 
                     if(corA.GetDistanceTo(corB) > distance)
