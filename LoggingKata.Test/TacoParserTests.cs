@@ -17,7 +17,7 @@ namespace LoggingKata.Test
         }
 
         [Fact]
-        public void HasThreeCells()
+        public void DoesNotHaveThreeCells()
         {
             var tacoParser = new TacoParser();
 
