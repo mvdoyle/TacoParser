@@ -2,7 +2,8 @@
 {
     public interface ITrackable
     {
-        string Name { get; set; }
+        string Name { get; set; } //property
         Point Location { get; set; }
     }
 }
+//interfaces specify behavior
