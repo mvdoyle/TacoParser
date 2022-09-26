@@ -10,3 +10,5 @@ namespace LoggingKata
         void LogDebug(string log);
     }
 }
+
+//stubbed out methods
